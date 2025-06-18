@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { assets } from '../Assets/assets';
-function Nav(){
+function Nav({handleOpen}){
+
+    // let [isOpen,setOpen]=useState(false);
+    // function handleOpen(){
+    //     setOpen(e=>!e)
+
+    // }
+
+
 
     return( <>
         <div className='navbar'>
@@ -11,10 +19,10 @@ function Nav(){
 
         </div>
         <div className="search-input">
-            <label><i className="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder='Search Contact' />
+            <label className="search"><i className="fa-solid fa-magnifying-glass"></i>
+            <input className='search-contact' type="text" placeholder='Search Contact' />
             </label>
-           <p>+</p>
+           <p className='plus-icon' onClick={handleOpen}>+</p>
 
         </div>   </>
     )

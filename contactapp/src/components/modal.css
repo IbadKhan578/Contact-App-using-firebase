@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.modal{
+
+    background-color: white;
+    width: 90vw;
+    height: 244px;
+    margin-left: 5vw;
+    position: absolute;
+    top: 26%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    
+}
+
+.modal .name{
+    margin-top: 20px;
+}
+
+.modal input{
+
+    height: 40px;
+    width: 95%;
+    margin: 9px 0px;
+    border: 1px solid black;
+    padding-left: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.modal p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.modal-btn{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.modal button{
+    background-color: #fcca3f;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+    height: 31px;
+    width: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+

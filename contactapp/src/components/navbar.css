@@ -38,7 +38,7 @@
 
 }
 
-label {
+.search {
     color: white;
 
     height: 40px;
@@ -58,7 +58,7 @@ label {
 
 
 
-input{
+.search-contact{
     
    background-color: transparent;
    outline: none;
@@ -77,7 +77,7 @@ input::placeholder{
     padding-left: 5px;
 }
 
- p{
+ .plus-icon{
     width: 45px;
     height: 45px;
     font-size: 2rem;

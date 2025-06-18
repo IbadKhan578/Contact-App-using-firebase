@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 64px;
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-top: 20px;
+    background-color: #ffeaae;
+    border-radius: 10px;
+    
+
+}
+.contact-box .user-icon{
+
+    height: 48px;
+    width: 48px;
+    color: #f68202;
+    
+}
+
+.contact-box .contact-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+
+.contact-detail .name{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.dlt-icon{
+    color: red;
+       width: 19px;
+    height: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+ 
+}
+
+.edit-icon{
+    color: blue;
+       width: 19px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.no-contact{
+    height: 80vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    gap: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
