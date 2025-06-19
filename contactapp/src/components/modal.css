@@ -14,8 +14,28 @@
     display: flex;
     flex-direction: column;
     padding: 16px;
+
+
+    opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.4s ease forwards;
+    
+
     
 }
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+
 
 .modal .name{
     margin-top: 20px;
@@ -30,6 +50,7 @@
     padding-left: 5px;
     font-size: 1rem;
     outline: none;
+
 }
 
 .modal p{
@@ -43,7 +64,7 @@
     
 }
 
-.modal button{
+.modal .modal-btn button{
     background-color: #fcca3f;
     padding: 6px 12px;
     border-radius: 5px;
@@ -53,7 +74,31 @@
     width: 120px;
     margin-top: 20px;
     cursor: pointer;
+    flex-shrink: 1;
     
 }
+
+.cross-icon{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+
+
+
+}
+
+.cross-icon button{
+  background-color: transparent;
+  border: none;
+  /* font-size: 0.9rem; */
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0px 5px;
+
+}
+
+
+
+
 
 
